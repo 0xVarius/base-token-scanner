@@ -13,6 +13,11 @@ app.use(express.json());
 // Serve static files (pfp, etc)
 app.use('/static', express.static(path.join(__dirname, 'static')));
 
+// Dashboard
+app.get('/dashboard', (req, res) => {
+  res.sendFile(path.join(__dirname, 'static', 'dashboard.html'));
+});
+
 // Info endpoint
 app.get('/', (req, res) => {
   res.json({
