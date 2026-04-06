@@ -18,6 +18,18 @@ app.get('/dashboard', (req, res) => {
   res.sendFile(path.join(__dirname, 'static', 'dashboard.html'));
 });
 
+// Guide landing page
+app.get('/guide', (req, res) => {
+  res.sendFile(path.join(__dirname, 'static', 'guide.html'));
+});
+
+// Guide download (free during launch to build traction)
+app.get('/api/guide/download', (req, res) => {
+  res.sendFile(path.join(__dirname, 'static', 'guide-content.md'), {
+    headers: { 'Content-Type': 'text/markdown; charset=utf-8' },
+  });
+});
+
 // Info endpoint
 app.get('/', (req, res) => {
   res.json({
