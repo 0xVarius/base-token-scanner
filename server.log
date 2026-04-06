@@ -1,0 +1,2 @@
+Token Safety Scanner running on port 4021
+Scan: http://localhost:4021/api/scan/<address>

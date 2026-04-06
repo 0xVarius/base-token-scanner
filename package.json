@@ -1,0 +1,18 @@
+{
+  "name": "x402-scanner",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@x402/core": "^2.9.0",
+    "@x402/evm": "^2.9.0",
+    "@x402/express": "^2.9.0",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "viem": "^2.47.10"
+  }
+}
