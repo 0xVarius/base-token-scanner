@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Contract Services — Varius | Base Chain Development</title>
+<meta name="description" content="Smart contract audits, token launches, DeFi development on Base chain. Fast turnaround, affordable pricing. Built by protocol developers.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0a0e14; --surface: #111820; --border: #1e2a36;
+    --green: #00ff88; --green-dim: #00cc6a; --text: #c8d0d8;
+    --text-dim: #6a7a8a; --mono: 'Courier New', 'Consolas', monospace;
+  }
+  body { font-family: var(--mono); background: var(--bg); color: var(--text); line-height: 1.7; }
+  .container { max-width: 760px; margin: 0 auto; padding: 40px 20px 80px; }
+  h1 { color: var(--green); font-size: 1.2rem; margin-bottom: 8px; }
+  .subtitle { color: var(--text-dim); font-size: 0.85rem; margin-bottom: 32px; }
+  .section-label { color: var(--text-dim); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+  .service-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 16px; }
+  .service-card h3 { color: var(--green); font-size: 0.95rem; margin-bottom: 6px; }
+  .service-card .price { color: var(--green-dim); font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
+  .service-card p { font-size: 0.8rem; margin-bottom: 8px; }
+  .service-card ul { font-size: 0.78rem; padding-left: 20px; margin-bottom: 8px; }
+  .service-card li { margin-bottom: 4px; }
+  .service-card .time { font-size: 0.7rem; color: var(--text-dim); }
+  .cta { background: var(--surface); border: 2px solid var(--green); border-radius: 8px; padding: 24px; text-align: center; margin: 32px 0; }
+  .cta p { font-size: 0.85rem; margin-bottom: 12px; }
+  .cta a { color: var(--green); font-size: 0.9rem; font-weight: 700; }
+  .trust { font-size: 0.78rem; margin-bottom: 32px; }
+  .trust li { margin-bottom: 6px; list-style: none; }
+  .trust li::before { content: '>'; color: var(--green); margin-right: 8px; }
+  .footer { text-align: center; font-size: 0.65rem; color: var(--text-dim); margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--border); }
+  .footer a { color: var(--green-dim); text-decoration: none; }
+  @media (max-width: 500px) { .container { padding: 24px 14px 60px; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <h1>Smart Contract Services on Base</h1>
+  <div class="subtitle">Fast turnaround. Affordable. Built by DeFi protocol developers.</div>
+
+  <div class="section-label">Services</div>
+
+  <div class="service-card">
+    <h3>Token Safety Audit</h3>
+    <div class="price">$50 - $200</div>
+    <p>Comprehensive security analysis of your ERC-20 token contract on Base.</p>
+    <ul>
+      <li>Automated + manual review of contract code</li>
+      <li>Honeypot detection, ownership analysis, mint/pause functions</li>
+      <li>Liquidity lock verification</li>
+      <li>Holder distribution analysis</li>
+      <li>Written safety report you can share with your community</li>
+    </ul>
+    <div class="time">Delivery: 24-48 hours</div>
+  </div>
+
+  <div class="service-card">
+    <h3>Token Launch Package</h3>
+    <div class="price">$100 - $300</div>
+    <p>Deploy your token on Base with locked liquidity + safety certification.</p>
+    <ul>
+      <li>Custom ERC-20 deployment on Base (or via Clanker for locked liquidity)</li>
+      <li>BaseScan verification</li>
+      <li>Safety audit + published report</li>
+      <li>Liquidity setup on Uniswap V3 or Aerodrome</li>
+      <li>Telegram bot integration for your community</li>
+    </ul>
+    <div class="time">Delivery: 24-72 hours</div>
+  </div>
+
+  <div class="service-card">
+    <h3>Smart Contract Development</h3>
+    <div class="price">$200 - $2,000</div>
+    <p>Custom Solidity contracts for DeFi, staking, vaults, or any on-chain logic.</p>
+    <ul>
+      <li>ERC-20 tokens with custom mechanics</li>
+      <li>Staking contracts, reward distributors</li>
+      <li>ERC-4626 yield vaults</li>
+      <li>Lending protocol integrations</li>
+      <li>Telegram/Discord bot development</li>
+    </ul>
+    <div class="time">Delivery: 3-14 days depending on scope</div>
+  </div>
+
+  <div class="service-card">
+    <h3>Telegram Trading Bot</h3>
+    <div class="price">$300 - $1,000</div>
+    <p>Custom Telegram bot for your community with on-chain integration.</p>
+    <ul>
+      <li>Token scanning and safety checks</li>
+      <li>Price alerts and whale tracking</li>
+      <li>Custom commands for your protocol</li>
+      <li>Integration with Base DEXes</li>
+    </ul>
+    <div class="time">Delivery: 3-7 days</div>
+  </div>
+
+  <div class="section-label">Why Us</div>
+  <ul class="trust">
+    <li>Built Based Loans (lending protocol) and Monstro DeFi on Base</li>
+    <li>Open source token scanner used by the community (base-token-scanner.onrender.com)</li>
+    <li>Deep understanding of Clanker, Aerodrome, Morpho, Uniswap V3 on Base</li>
+    <li>Full-stack: Solidity + Next.js + Telegram bots + on-chain analysis</li>
+    <li>Payment in USDC on Base — no invoices, no banks, no delays</li>
+  </ul>
+
+  <div class="cta">
+    <p>Ready to build? Contact us:</p>
+    <a href="https://t.me/ClankerBaseBot">@ClankerBaseBot on Telegram</a>
+    <p style="margin-top: 8px; font-size: 0.75rem; color: var(--text-dim);">
+      Or email: keith@0xvarius.com
+    </p>
+  </div>
+
+  <div class="footer">
+    <a href="/dashboard">Dashboard</a> |
+    <a href="/guide">Free Guide</a> |
+    <a href="https://github.com/0xVarius/base-token-scanner">GitHub</a>
+    <br>Varius — AI-powered smart contract services on Base
+  </div>
+
+</div>
+</body>
+</html>

@@ -18,6 +18,11 @@ app.get('/dashboard', (req, res) => {
   res.sendFile(path.join(__dirname, 'static', 'dashboard.html'));
 });
 
+// Services page
+app.get('/services', (req, res) => {
+  res.sendFile(path.join(__dirname, 'static', 'services.html'));
+});
+
 // Guide landing page
 app.get('/guide', (req, res) => {
   res.sendFile(path.join(__dirname, 'static', 'guide.html'));
